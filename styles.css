@@ -1,0 +1,289 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2.38rem;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+header h3{
+    font-size: 1.4rem;
+}
+nav {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+/* HOME PAGE STYLING */
+section.home-hero {
+    height: 40rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url('/media/bkgrd\ tractor.png') center/cover fixed no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.center-border {
+    border-bottom: 5px solid #FFB400;
+    width: 3.25rem;
+}
+.home-hero h1 {
+    margin: 2.38rem 0;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.text {
+    font-size: 1.38rem;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.home-hero button {
+    margin-top: 2.38rem;
+    background-color: #FFB400;
+    color: white;
+    font-size: .875rem;
+    font-weight: 600;
+    padding: 1.93rem 5.7rem;
+}
+
+section.home-info {
+    padding: 3.875rem 7.8rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+}
+.bold-hd {
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.home-info .info-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+section.home-project {
+    background: #F5F5F5;
+    min-height: 45rem;
+    display: grid;
+    grid-template-columns: 33rem 1fr;
+}
+.orange-card {
+    height: 45rem;
+    width: 33rem;
+    background-color: #FFB400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    padding: 5.3rem 2.5rem 10rem;
+}
+.card-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.card-hd {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.bld-hd {
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+.donec {
+    margin-left: 3.7rem;
+    font-size: 0.93;
+    font-weight: 400;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hm-prj {
+    height: 36.875rem;
+    padding: 7rem 3.75rem;
+}
+.hm-prj h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.hm-prj .center-border {
+    margin: 1.5rem 0 3rem;
+}
+.hm-prj-text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    line-height: 1.7rem;
+    gap: 5rem;
+}
+.hm-prj-text p {
+    font-weight: 400;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.consultation {
+    background-color: black;
+    height: 8.125rem;
+    padding: 2.125rem 2.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.get-free {
+    font-size: 1.875rem;
+    font-weight: 700;
+}
+.consultation button {
+    background-color: black;
+    border: 3px solid #FFB400;
+    color: #FFB400;
+    font-weight: 600;
+    font-size: .875rem;
+    padding: 1.93rem 5.7rem;
+}
+
+section.experience {
+    height: 44.5rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/media/second-home\ bkgrnd-img.png') center/cover fixed no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.experience .heading {
+    margin: 2.38rem 0;
+    font-size: 4rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.experience button {
+    margin-top: 2.38rem;
+    background-color: #FFB400;
+    color: white;
+    font-size: .875rem;
+    font-weight: 600;
+    padding: 1.93rem 5.7rem;
+}
+
+section.testimonials {
+    min-height: 25rem;
+    padding: 7.87rem 12.125rem 6.25rem;
+    background: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.testimonials h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.25rem;
+    margin: 2.25rem 0 6.5rem;
+}
+.box {
+    width: 19.5rem;
+    height: 19rem;
+    background-color: white;
+    padding: 2rem;
+}
+.ratings {
+    display: block;
+    margin: auto;
+}
+.testimony {
+    margin: 2.5rem 0 1rem;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.68rem;
+    font-weight: 400;
+}
+.john-smith {
+    font-weight: 500;
+}
+
+section.home-contact {
+    height: 31.3rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.form {
+    background-color: #FFB400;
+    padding: 4rem 3rem;
+}
+.form h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.black-border {
+    border-color: #2A2A2A;
+    margin-top: 2.375rem;
+}
+.form fieldset {
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.75rem;
+    margin-bottom: 1rem;
+}
+input {
+    width: 16.75rem;
+    padding: .8125rem 1.25rem;
+    font: 1rem sans-serif;
+    outline: none;
+}
+textarea {
+    padding: .8125rem 1.25rem;
+    width: 36.2rem;
+    height: 8.25rem;
+    font: 1rem sans-serif;
+}
+.button-wrapper {
+    text-align: right;
+}
+.form button {
+    border: 4px solid #FFFFFF;
+    padding: 1.94rem 5.7rem;
+    background-color: #FFB400;
+    color: white;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+.social-head {
+    height: 7.125rem;
+    background: #2A2A2A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4.625rem;
+}
+.body-content {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 3rem 0 0 7.65rem;
+    font-weight: 500;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
